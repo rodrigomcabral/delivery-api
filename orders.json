@@ -1,5 +1,5 @@
 {
-  "nextId": 502,
+  "nextId": 503,
   "orders": [
     {
       "id": 1,
@@ -4001,6 +4001,14 @@
       "value": 30,
       "delivery": false,
       "timeStamp": "2025-01-07T15:46:08.904Z"
+    },
+    {
+      "id": 502,
+      "client": "Rodrigo Cabral",
+      "product": "hardware 3rd gen",
+      "value": 30,
+      "delivery": false,
+      "timeStamp": "2025-02-03T10:34:49.288Z"
     }
   ]
 }

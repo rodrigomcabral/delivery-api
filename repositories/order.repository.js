@@ -4,7 +4,7 @@ import { promises as fs} from "fs";
 const { readFile, writeFile } = fs;
 
 async function getOrders() {
-    const data = JSON.parse(await readFile(global.filename))
+    const data = JSON.parse(await readFile(global.filename, "utf8"))
     return data.orders; 
 }
 

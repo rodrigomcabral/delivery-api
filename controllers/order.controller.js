@@ -81,7 +81,7 @@ async function totalClient(req, res, next) {
             throw new Error("The Client field is mandatory!")
         }
         res.send({ totalClient: await OrderService.getTotalClient(clientName)})
-        logger.info(`POST /order/totalClient + ${clientName})`)
+        logger.info(`POST /order/totalClient - ${clientName}`)
     } catch(err) {
         next(err)
     }
